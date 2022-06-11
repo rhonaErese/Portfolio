@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Poppons: 200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(red, green, blue, alpha);
+}
+.container .left_side {
+  position: relative;
+  background: grey;
+  padding: 40px;
+}
+.profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profileText .profilePic {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profileText .profilePic cvPic2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 10%;
+  object-fit: cover;
+}
+.profileText h2 {
+  color: whitesmoke;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.profileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.contactInformation {
+  padding-top: 40px;
+}
+.title {
+  color: whitesmoke;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.contactInformation ul {
+  position: relative;
+}
+.contactInformation ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+  text-align: justify;
+}
+.contactInformation ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: darkgray;
+}
+.contactInformation ul li span {
+  color: #f5f5f5;
+  font-weight: 300;
+}
+.title2 {
+  color: whitesmoke;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.objective p {
+  color: whitesmoke;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.title3 {
+  color: whitesmoke;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.personalInformation ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+  text-align: justify;
+}
+.personalInformation ul li span {
+  color: #f5f5f5;
+  font-weight: 300;
+}
+.container .right_side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+.title4 {
+  position: relative;
+  background: #fff;
+  padding: 0px;
+  margin-bottom: 15px;
+  color: grey;
+  letter-spacing: 1px;
+}
+.educWork .box .workyear {
+  min-width: 150px;
+  color: grey;
+  font-size: 16px;
+}
+.educWork .box .workyear .designation h4 {
+  color: grey;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.educWork .box .workyear ul li {
+  text-align: justify;
+}
+
+.title5 {
+  position: relative;
+  background: #fff;
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: grey;
+  letter-spacing: 1px;
+}
+.educWork .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.educWork .box .schoolyear {
+  min-width: 150px;
+  color: grey;
+  font-size: 16px;
+}
+.educWork .box .text h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: grey;
+}
+.educWork .box .text p {
+  font-size: 16px;
+  color: grey;
+}
