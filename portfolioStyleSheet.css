@@ -65,6 +65,8 @@ body {
   align-items: center;
   position: absolute;
   width: 100%;
+  top: 40%;
+  left: 30%;
   color: whitesmoke;
 }
 
