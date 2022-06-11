@@ -14,17 +14,43 @@
     <link
       rel="stylesheet"
       media="screen and (min-width:1280px)"
-      href="styles/desktopView.css"
+      href="portfolioStyleSheet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:461px)"
+      href="tabletView.css"
     />
     <link
       rel="stylesheet"
       media="screen and (max-width:460px)"
-      href="styles/mobileView.css"
+      href="mobileView.css"
     />
-    <link rel="stylesheet" href="styles/tabletView.css" />
-    <link rel="stylesheet" href="portfolioStyleSheet.css" />
   </head>
   <body>
+    <div class="mobile-nav-bar">
+      <div class="icon-container">
+        <span><a href="#">RBE</a></span>
+      </div>
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul class="ul-list">
+              <li><a href="index.html">HOME</a></li>
+              <li>
+                <a href="About.html">ABOUT</a>
+              </li>
+              <li>
+                <a href="Project.html">PROJECT</a>
+              </li>
+              <li><a href="contactMe.html">CONTACT ME</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="aboutBanner">
       <div class="nav-bar">
         <ul>
@@ -50,7 +76,6 @@
             <img
               src="photos/paralegal.jpg"
               alt="paralegal"
-              style="width: 100%"
             />
             <div class="designation">
               <h4>Paralegal</h4>
@@ -60,14 +85,13 @@
             <img
               src="photos/officeManager.jpg"
               alt="ofcManager"
-              style="width: 100%"
             />
             <div class="designation">
               <h4>Office Manager</h4>
             </div>
           </div>
           <div class="column">
-            <img src="photos/hkCoor.jpg" alt="HkCoor" style="width: 100%" />
+            <img src="photos/hkCoor.jpg" alt="HkCoor" />
             <div class="designation">
               <h4>Housekeeping Coordinator</h4>
             </div>
@@ -108,11 +132,11 @@
     </div>
     <div class="Awards">
       <div class="description-educ">Awards & Certificates</div>
-      <div>
-        <img src="photos/deansList.JPG" alt="" />
+      <div class="awards-img-container">
+        <img src="photos/deansList.JPG" alt="" class="awards-image"/>
       </div>
-      <div>
-        <img src="photos/sapb1.JPG" alt="" />
+      <div class="awards-img-container">
+        <img src="photos/sapb1.JPG" alt="" class="awards-image"/>
       </div>
       <div class="cv">
         <p>Please click the button below to know more about my working experience, education and skills</p>

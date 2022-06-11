@@ -4,25 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="portfolioStyleSheet.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:1280px)"
+      href="portfolioStyleSheet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:461px)"
+      href="tabletView.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:460px)"
+      href="mobileView.css"
+    />
     <title>ContactMe</title>
   </head>
   <body>
+    <div class="mobile-nav-bar">
+      <div class="icon-container">
+        <span><a href="#">RBE</a></span>
+      </div>
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul class="ul-list">
+              <li><a href="index.html">HOME</a></li>
+              <li>
+                <a href="About.html">ABOUT</a>
+              </li>
+              <li>
+                <a href="Project.html">PROJECT</a>
+              </li>
+              <li><a href="contactMe.html">CONTACT ME</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="aboutBanner">
-        <div class="nav-bar">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Project.html">Project</a></li>
-            <li><a href="contactMe.html">Contact Me</a></li>
-          </ul>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Project.html">Project</a></li>
+          <li><a href="contactMe.html">Contact Me</a></li>
+        </ul>
+      </div>
+      <div class="social-container">
+        <h1>Reach out today</h1>
+        <div class="icons-container">
+          <a href="https://www.facebook.com/DhenSavRhon" target="_blank"
+            ><img class="icon-link" src="photos/fblogo.png" alt=""
+          /></a>
+          <a
+            href="https://www.instagram.com/deramosrhona/?hl=en"
+            target="_blank"
+          >
+            <img class="icon-link" src="photos/insta.png" alt=""
+          /></a>
+          <a href=""> <img class="icon-link" src="photos/gm.png" alt="" /></a>
+          <a href="https://github.com/rhonaErese" target="_blank">
+            <img class="icon-link" src="photos/github.png" alt=""
+          /></a>
         </div>
-        <div class="social-container">
-        <a href="https://www.facebook.com/DhenSavRhon" target="_blank"><img class="icon-link" src="photos/fblogo.png" alt="" /></a>  
-        <a href="https://www.instagram.com/deramosrhona/?hl=en" target="_blank"> <img class="icon-link" src="photos/insta.png" alt="" /></a> 
-        <a href=""></a> <img class="icon-link" src="photos/gm.png" alt="" /></a> 
-        <a href="https://github.com/rhonaErese" target="_blank"> <img class="icon-link" src="photos/github.png" alt="" /></a> 
+        <div class="reachout">
+          <p>
+            or contact me directly <br />
+            rhona.erese@gmail.com <br />
+            +639998869786
+          </p>
         </div>
-        </div>
-      </body>
+      </div>
+    </div>
+  </body>
 </html>
